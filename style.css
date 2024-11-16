@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    display: grid; 
+    align-items: center; 
+    justify-items: center; 
+    height: 100vh;
+}
+
+.social-card {
+    width: 368px;
+    height: 585px;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-card .user-info{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-card .user-info img{
+    width: 80px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.social-card .user-tagline{
+    background-color: green;
+}
+
+.social-card .user-skills-list{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
